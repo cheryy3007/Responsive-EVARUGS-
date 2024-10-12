@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 122px;
+}
+.nav{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 142px 0;
+    font-family: "Roboto", sans-serif;
+    color: #737373;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    text-align: center;    
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.header-content{
+    display: flex;
+}
+.header-content h1{
+    max-width: 596px;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 58.59px;  
+    color: #000000;  
+    padding-top: 189px;
+}
+.btn{
+    width: 179px;
+    height: 53px;
+    border-radius: 7px;  
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    border: none; 
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23.44px;
+    text-align: center;  
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section h1{
+    font-family:"Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;  
+    color: #000000;  
+}
+.section-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+.section-card{
+    width: 344px;
+    height: 414px;
+    box-shadow:  0 4px 10px grey;
+}
+.section-card h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.section-card p{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    color: #767676;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.span{
+    background: linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.otziv{
+    width: 1440px;
+    height: 357px;
+    margin: 0 auto;    
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+    position: relative;
+    top: 225px;
+}
+.otziv_cards{
+    display: flex;
+    gap: 70px;
+}
+.otziv_card{  
+    width: 436px;
+    height: 187px;
+    border-radius: 9px;    
+    box-shadow: 0px 0px 30px 0px #00000040;
+    background: #FFFFFF; 
+    position: relative;
+    top: 92px;
+    z-index: -1;
+}
+.otziv_card_2{  
+    width: 436px;
+    height: 187px;
+    border-radius: 9px;    
+    box-shadow: 0px 0px 30px 0px #00000040;
+    background: #FFFFFF; 
+    position: relative;
+    top: 92px;
+}
+.mask{
+    position: relative;
+    bottom: 90px;
+    left: 69px;
+}
+.mask_2{
+    position: relative;
+    bottom: 90px;
+    left: 140px;
+}
+.mask_3{
+    position: relative;
+    bottom: 90px;
+    left: 150px;
+}
+.otziv_card p{
+    width: 390px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    color: #8E8E8E;
+    position: relative;
+    bottom: 115px;
+    left: 20px;
+}
+.otziv_card_2 p{
+    width: 390px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    color: #000000;
+    position: relative;
+    bottom: 115px;
+    left: 20px;
+}
+.line{
+    position: relative;
+    bottom: 100px;
+    left: 150px;
+}
+.otziv_card h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15.23px;
+    text-align: center;
+    color: #8E8E8E;
+    position: relative;
+    bottom: 100px;   
+}
+.otziv_card_2 h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15.23px;
+    text-align: center;
+    color: #8E8E8E;   
+    position: relative;
+    bottom: 100px;
+}
+.footer{
+    max-width: 1440px;
+    height: 165px;
+    background-color: #FFFFFF; 
+    margin: 0 auto;
+    position: relative;
+    top: 300px;   
+}
+.insta h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    color: #000000;
+}
+.imginsta{
+    margin-top: 6px;
+}
+.tel h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    color: #000000;
+}
+.tel h5{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 9.5px;  
+    color: #000000;  
+    padding-top: 15px;
+}
+.tel h6{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 9.5px;  
+    color: #000000; 
+    padding-top: 10px; 
+}
+.nas h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    color: #000000;
+}
+.nas p{
+    width: 224px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #000000;    
+}
+.nav_2{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 142px 0;    
+}
+@media (max-width:768px) {
+    .container{
+        margin: 0 66px;
+    }
+    .nav ul{
+        display: none;
+    }
+    .header-content h1{
+        width: 323px;
+    }
+    .btn{
+        margin-top: -50px;
+    }
+    .section h1{
+        margin-top: 70px;
+    }
+    .header_img{
+        width: 368px;
+        height: 473px;        
+    }
+    .class_img{
+        max-width: 368px;
+        position: relative;
+        right: 10px;
+    }
+    .btn{
+        position: relative;
+        top: 100px;
+    }
+    .section-cards{
+        flex-wrap: wrap;
+    }
+    .img{
+        width: 594px;
+        height: 189.98px;
+    }
+    .section-card{
+        width: 594px;
+        height: 395px;
+        margin-top: 61px;
+    }
+    .otziv{
+        width: 769px;
+        height: 948px;        
+    }
+    .otziv_cards{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .otziv_card{
+        width: 536px;
+        height: 187px;
+        border-radius: 9px;  
+        background-color: #fff;                   
+    }
+    .otziv_card_2{
+        width: 536px;
+        height: 187px;
+        border-radius: 9px;
+        background-color: #fff;                     
+    }
+    .mask_2{
+        margin-left: 50px;
+    }
+    .mask{
+        margin-left: 120px;
+    }  
+    .mask_3{
+        margin-left: 50px;
+    }
+}
+@media (max-width:576px) {
+    .container{
+        margin: 0 68px;
+    }
+    .logo{
+        position: relative;
+        top: 250px;
+        left: 20px;
+    }
+    .header-content_text{
+       margin-left: 50px;
+    }
+    .btn{
+        margin-left: 50px;
+    }
+    .header_img{
+        display: none;
+    }
+    .section h1{
+        position: relative;
+        top: 100px;
+    }
+    .img{
+        width: 279px;
+        height: 182.52px;
+    }
+    .section-card{
+        width: 279px;
+        height: 400px;
+    }
+    .section-card h2{
+        padding-left: 70px;
+    }
+    .otziv{
+        width: 321px;
+        height: 948px;     
+    }
+    .otziv_cards{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .otziv_card{
+        width: 267px;
+        height: 210px;
+        border-radius: 9px; 
+        background-color: #fff;             
+    }
+    .otziv_card_2{
+        width: 267px;
+        height: 210px;
+        border-radius: 9px;   
+        background-color: #fff;                 
+    }
+    .otziv_card p{
+        width: 267px;
+    }
+    .otziv_card_2 p{
+        width: 267px;
+    }
+    .mask{
+        margin-left: 10px;
+    }
+    .mask_2{
+        margin-left: -70px;
+    }
+    .mask_3{
+        margin-left: -80px;
+    }
+    .line{
+       margin-left: -75px;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .nav_2{
+        flex-wrap: wrap;
+    }
+}
